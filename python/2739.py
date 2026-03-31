@@ -10,5 +10,10 @@
 N = input()
 N = int(N)
 
-for i in range (1,10):
-    print(N, "*", i, "=", N*i)
+# for i in range (1,10):
+#     print(N, "*", i, "=", N*i)
+
+count = 0
+while count < 9 :
+    count+=1
+    print(N, "*", count, "=", N*count) 
